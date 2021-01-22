@@ -59,8 +59,15 @@
             <h2 id="british" name="british">British Section</h2>
             <div class="card">
                 <img src="images/british-jacket.jfif" class="card-img-top img-item" alt="RAF Jacket">
-                <p class="card-header individual-item">RAF Jacket <a href="#" class="btn btn-info item-button">More
+                <p id="modal-btn" class="card-header individual-item">RAF Jacket <a
+                        class="btn btn-info item-button">More
                         Info</a></p>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn">&times;</span>
+                        <p>Some text in the modal...</p>
+                    </div>
+                </div>
             </div>
             <div class="card">
                 <img src="images/sten.jfif" class="card-img-top img-item" alt="Sten Gun">
@@ -139,6 +146,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script src="modal.js"></script>
+
 </body>
 
 </html>
